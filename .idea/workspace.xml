@@ -153,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611240681835</updated>
       <workItem from="1611240682843" duration="3288000" />
-      <workItem from="1611286275882" duration="760000" />
+      <workItem from="1611286275882" duration="1319000" />
     </task>
     <servers />
   </component>
@@ -161,6 +161,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1195" y="123" width="1265" height="1217" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611287794735">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1195" y="123" width="1265" height="1217" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/-1920.253.1920.1057/0.23.2560.1417@0.23.2560.1417" timestamp="1611287794735" />
     <state x="342" y="486" width="604" height="490" key="find.popup" timestamp="1611242468173">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
