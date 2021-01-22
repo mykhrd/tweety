@@ -45,7 +45,9 @@ class User extends Authenticatable
         // include all user's tweets
         // as well as tweets from users they follow
         // in descending order by date
-
+        $ids = $this->follows()->pluck('id');
+        $ids->push($this->id);
+        return Tweet::whereIn('user_id', $ids)->latest()->get();
     }
 
     public function tweets()
@@ -65,6 +67,10 @@ class User extends Authenticatable
 
     public function follows()
     {
-        return $this->belongsToMany(User::class, 'follows', 'user_id', 'following_user_id');
+        return $this->belongsToMany(
+            User::class,
+            'follows',
+            'user_id',
+            'following_user_id');
     }
 }

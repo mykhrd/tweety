@@ -1,7 +1,7 @@
 <div class="flex p-4 border-b border-b-gray ">
     <div class="mr-2 flex-shrink-0">
         <div class="flex items-center text-sm">
-            <img src="{{auth()->user()->avatar}}" alt="" class="rounded-full mr-2">
+            <img src="{{$tweet->user->avatar}}" alt="" class="rounded-full mr-2">
         </div>
     </div>
     <div>
